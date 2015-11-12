@@ -24,13 +24,33 @@ public class Atkinson_7_interactivefiction {
     public static void main(String[] args) {
         while(live) {
             switch(path) {
-                case 1: game.text(scenario.a);
+                case 1: System.out.println("*****************************************************************************");
+                        game.text(scenario.a);
                         break;
-                case 2: game.text(scenario.b);
+                case 2: System.out.println("*****************************************************************************");
+                        game.text(scenario.b);
                         break;
-                case 3: game.text(scenario.c);
+                case 3: System.out.println("*****************************************************************************");
+                        game.text(scenario.c);
                         break;
-                //case 4: game.text(scenario.d);
+                case 4: System.out.println("*****************************************************************************");
+                        game.text(scenario.d);
+                        break;
+                case 5: System.out.println("*****************************************************************************");
+                        game.text(scenario.e);
+                        break;
+                case 6: System.out.println("*****************************************************************************");
+                        game.text(scenario.f);
+                        break;
+                case 7: System.out.println("*****************************************************************************");
+                        game.text(scenario.g);
+                        break;
+                case 8: System.out.println("*****************************************************************************");
+                        game.text(scenario.h);
+                        break;
+                case 9: System.out.println("*****************************************************************************");
+                        game.text(scenario.i);
+                        break;
             }
         }
     }
