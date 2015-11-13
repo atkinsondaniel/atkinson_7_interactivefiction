@@ -66,7 +66,7 @@ public class Game {
                 }
                 break;
             case 3: //less
-                thing.path = 1; //start
+                thing.path = 16; //start
             case 4: //house
                 if (res == 1){
                     thing.path = 2; //leave
@@ -90,10 +90,10 @@ public class Game {
                 }
                 break;
             case 6: //closet
-                thing.path = 1; //start
+                thing.path = 16; //start
             case 7: //duck
                 if (res == 1){
-                    thing.path = 1; //keep
+                    thing.path = 16; //keep
                 }
                 else if(res == 2) {
                     thing.path = 9; //forest
@@ -103,13 +103,57 @@ public class Game {
                 }
                 break;
             case 8: //dive
-                thing.path = 1; //start
+                thing.path = 16; //start
             case 9: //forest
                 if (res == 1){
                     thing.path = 10; //deeper
                 }
                 else if(res == 2) {
                     thing.path = 11; //swim
+                }
+                else {
+                    System.out.println("Learn how to spell");
+                }
+                break;
+            case 10: //deeper
+                if (res == 1){
+                    thing.path = 12; //enter
+                }
+                else if(res == 2) {
+                    thing.path = 13; //stay
+                }
+                else {
+                    System.out.println("Learn how to spell");
+                }
+                break;
+            case 11: //swim
+                thing.path = 16; 
+            case 12: //enter
+                if (res == 1){
+                    thing.path = 14; //search
+                }
+                else if(res == 2) {
+                    thing.path = 15; //give up
+                }
+                else {
+                    System.out.println("Learn how to spell");
+                }
+                break;
+            case 13: //stay
+                thing.path = 16;
+            case 14: //search
+                thing.live = false;
+                break;
+            case 15: //give up
+                thing.live = false;
+                break;
+            case 16:
+                if (res == 1){
+                    thing.path = 1;
+                }
+                else if(res == 2) {
+                    System.out.println("Pitiful");
+                    thing.live = false;
                 }
                 else {
                     System.out.println("Learn how to spell");
