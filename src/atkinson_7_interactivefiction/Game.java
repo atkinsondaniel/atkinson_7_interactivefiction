@@ -14,12 +14,12 @@ import java.util.Scanner;
  * @author danielatkinson
  */
 public class Game {
-    Scanner scanner = new Scanner(System.in);
-    Atkinson_7_interactivefiction thing = new Atkinson_7_interactivefiction();
-    int check(String usrChoice, String[] stuff) {
-        int response;
-        if (usrChoice.contains(stuff[1])) {
-            response = 1;
+    Scanner scanner = new Scanner(System.in); //an instance of the scanner class, wow!
+    Atkinson_7_interactivefiction thing = new Atkinson_7_interactivefiction(); //an instance of my main class, wow!
+    int check(String usrChoice, String[] stuff) { //checks users response and assigns them a number
+        int response; //creates the response variable
+        if (usrChoice.contains(stuff[1])) { 
+            response = 1; 
         }
         else if (usrChoice.contains(stuff[2])) {
             response = 2;
@@ -27,19 +27,19 @@ public class Game {
         else if (usrChoice.contains(stuff[3])) {
             response = 3;
         }
-        else {
+        else { //does nothing, haven't bothered to delete it yet
             response = 4;
         }
         return response;
     }
     void text(String[] stuff) {
-        System.out.println(stuff[0]);
-        String response = scanner.next().toLowerCase();
-        int ans = check(response,stuff);
-        setPath(ans);
+        System.out.println(stuff[0]); //prints scenario
+        String response = scanner.next().toLowerCase(); //gets response
+        int ans = check(response,stuff); //get value of the response
+        setPath(ans); //decides where to go next
     }
     void setPath(int res) {
-        switch(thing.path) {
+        switch(thing.path) { //gigantic and bad, didn't feel like doing anything else
             case 1: //start
                 if (res == 1){
                     thing.path = 2; //more

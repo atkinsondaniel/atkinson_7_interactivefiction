@@ -9,7 +9,7 @@ package atkinson_7_interactivefiction;
  *
  * @author danielatkinson
  */
-public class Scenario {
+public class Scenario { //this wall of text is all the possible scenarios, along with their answer choices, wow!
     public String[] s1 = {"Two roads diverge into a yellow wood, do you take the path more or less traveled?", "more", "less", "fillertext"};
     public String[] s2 = {"After traveling for many hours, you see a small settlement in the distance,\nas you get "
             + "closer you see that it is a farm with a house and a barn. Would you like\nto go to the house, the barn, or keep walking?", "house", "barn", "keep"};

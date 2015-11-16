@@ -9,70 +9,70 @@ import java.util.Scanner;
 
 /**
  *
- * @author danielatkinson
+ * @author me, who else would it be?
  */
 public class Atkinson_7_interactivefiction {
 
     /**
      * @param args the command line arguments
      */
-    static Scanner scanner = new Scanner(System.in);
-    static Scenario scenario = new Scenario();
-    static Game game = new Game();
-    public static boolean live = true;
-    public static int path = 1;
+    static Scanner scanner = new Scanner(System.in);//an instance of the scanner class, wow!
+    static Scenario scenario = new Scenario(); //an instance of the scenario class, wow!
+    static Game game = new Game(); //an instance of the game class. wow!
+    public static boolean live = true; //is the user alive, wow!
+    public static int path = 1; //where the user is going, wow!
     public static void main(String[] args) {
-        String stars= "*****************************************************************************";
-        while(live) {
+        String stars= "*****************************************************************************"; //i like astronomy
+        while(live) { //continues running until they die
             switch(path) {
-                case 1: System.out.println(stars);
-                        game.text(scenario.s1);
-                        break;
-                case 2: System.out.println(stars);
-                        game.text(scenario.s2);
-                        break;
-                case 3: System.out.println(stars);
-                        game.text(scenario.s3);
-                        break;
-                case 4: System.out.println(stars);
-                        game.text(scenario.s4);
-                        break;
-                case 5: System.out.println(stars);
-                        game.text(scenario.s5);
-                        break;
-                case 6: System.out.println(stars);
-                        game.text(scenario.s6);
-                        break;
-                case 7: System.out.println(stars);
-                        game.text(scenario.s7);
-                        break;
-                case 8: System.out.println(stars);
-                        game.text(scenario.s8);
-                        break;
-                case 9: System.out.println(stars);
-                        game.text(scenario.s9);
-                        break;
-                case 10: System.out.println(stars);
-                        game.text(scenario.s10);
-                        break;
-                case 11: System.out.println(stars);
-                        game.text(scenario.s11);
-                        break;
-                case 12: System.out.println(stars);
-                        game.text(scenario.s12);
-                        break;
-                case 13: System.out.println(stars);
-                        game.text(scenario.s13);
-                        break;
-                case 14: System.out.println(stars);
-                        game.text(scenario.s14);
-                        break;
-                case 15: System.out.println(stars);
-                        game.text(scenario.s15);
-                        break;
-                case 16: System.out.println(stars);
-                        game.text(scenario.s16);
-                        break;
+                case 1: System.out.println(stars); //prints the stars
+                        game.text(scenario.s1); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 2: System.out.println(stars); //prints the stars
+                        game.text(scenario.s2); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 3: System.out.println(stars); //prints the stars
+                        game.text(scenario.s3); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 4: System.out.println(stars); //prints the stars
+                        game.text(scenario.s4); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 5: System.out.println(stars); //prints the stars
+                        game.text(scenario.s5); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 6: System.out.println(stars); //prints the stars
+                        game.text(scenario.s6); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 7: System.out.println(stars); //prints the stars
+                        game.text(scenario.s7); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 8: System.out.println(stars); //prints the stars
+                        game.text(scenario.s8); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 9: System.out.println(stars); //prints the stars 
+                        game.text(scenario.s9); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 10:System.out.println(stars); //prints the stars
+                        game.text(scenario.s10); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 11:System.out.println(stars); //prints the stars
+                        game.text(scenario.s11); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 12:System.out.println(stars); //prints the stars
+                        game.text(scenario.s12); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 13:System.out.println(stars); //prints the stars
+                        game.text(scenario.s13); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 14:System.out.println(stars); //prints the stars 
+                        game.text(scenario.s14); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 15:System.out.println(stars); //prints the stars
+                        game.text(scenario.s15); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
+                case 16:System.out.println(stars); //prints the stars
+                        game.text(scenario.s16); //does literally everything else
+                        break; //me off a piece of that kit-kat bar
             }
         }
     }
