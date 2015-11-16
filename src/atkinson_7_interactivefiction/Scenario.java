@@ -10,7 +10,7 @@ package atkinson_7_interactivefiction;
  * @author danielatkinson
  */
 public class Scenario {
-    public String[] s1 = {"Two roads diverge into a yellow wood, do you take the path more or less traveled?", "more", "less", "fdsafdsafdas"};
+    public String[] s1 = {"Two roads diverge into a yellow wood, do you take the path more or less traveled?", "more", "less", "fillertext"};
     public String[] s2 = {"After traveling for many hours, you see a small settlement in the distance,\nas you get "
             + "closer you see that it is a farm with a house and a barn. Would you like\nto go to the house, the barn, or keep walking?", "house", "barn", "keep"};
     public String[] s3 = {"You took the path less traveled, and that made all the difference, you trip\non a "
@@ -32,10 +32,14 @@ public class Scenario {
             + " are getting closer. Time is almost up. Will you enter the cave or try to fight?", "enter", "fight", "fillertext"};
     public String[] s11 = {"The water is cold, so very cold. You can't breath, you swim for the surface but\nonly go deeper. "
             + "You drown. The moonshiners catch up and laugh at your corpse", "fillertext", "fillertext", "fillertext"};
-    public String[] s12 = {"", "fillertext", "fillertext", "fillertext"};
-    public String[] s13 = {"", "fillertext", "fillertext", "fillertext"};
-    public String[] s14 = {"", "fillertext", "fillertext", "fillertext"};
-    public String[] s15 = {"", "fillertext", "fillertext", "fillertext"};
+    public String[] s12 = {"As you enter the cave, you hear a loud crash behind you, you turn around only to\nsee boulders falling"
+            + " trapping you in the cave. You have two options, look for a\nway out, or just give up.", "look", "give", "fillertext"};
+    public String[] s13 = {"You stand next to the mouth of the cave, bracing for the fight. Twelve giant men\nsurround you"
+            + " and beat you to a bloody pulp. At least you died quickly.", "fillertext", "fillertext", "fillertext"};
+    public String[] s14 = {"You fumble around in vain for about 5 steps before falling down and breaking\nyour legs. There are no"
+            + " second chances this time, you're dead.", "fillertext", "fillertext", "fillertext"};
+    public String[] s15 = {"You lay down and accept what will happen. You understand that all lives must come\nto an end and this"
+            + " is simply your time. Goodbye. It was a pleasure to know you.\nI hope we will meet again someday.", "fillertext", "fillertext", "fillertext"};
     public String[] s16 = {"Would you like to make another attempt?", "y", "n", "fillertext"};
     
 }

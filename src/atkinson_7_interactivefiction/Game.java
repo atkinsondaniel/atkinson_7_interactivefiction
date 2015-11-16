@@ -141,6 +141,7 @@ public class Game {
                 break;
             case 13: //stay
                 thing.path = 16;
+                break;
             case 14: //search
                 thing.live = false;
                 break;
