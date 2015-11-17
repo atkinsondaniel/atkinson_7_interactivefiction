@@ -25,15 +25,15 @@ public class Game {
         } else if (usrChoice.contains(stuff[3])) {
             response = 3;
         } else { //does nothing, haven't bothered to delete it yet
-            response = 4;
-        }
+            response = 4; //it might do something
+        } //okay it does something, let's not delete it
         return response;
     }
 
     void text(String[] stuff) {
         System.out.println(stuff[0]); //prints scenario
         String response = scanner.next().toLowerCase(); //gets response
-        int ans = check(response, stuff); //get value of the response
+        int ans = check(response, stuff); //assigns a  value of the response
         setPath(ans); //decides where to go next
     }
 
