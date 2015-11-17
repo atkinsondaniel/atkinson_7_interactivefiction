@@ -5,7 +5,7 @@
  */
 package atkinson_7_interactivefiction;
 
-import java.util.Scanner;
+import java.util.Scanner; //importing the scanner class, wow!
 
 /**
  *
@@ -18,11 +18,11 @@ public class Game {
 
     int check(String usrChoice, String[] stuff) { //checks users response and assigns them a number
         int response; //creates the response variable
-        if (usrChoice.contains(stuff[1])) {
+        if (usrChoice.contains(stuff[1])) { //first possible response
             response = 1;
-        } else if (usrChoice.contains(stuff[2])) {
+        } else if (usrChoice.contains(stuff[2])) { //second possible response
             response = 2;
-        } else if (usrChoice.contains(stuff[3])) {
+        } else if (usrChoice.contains(stuff[3])) { //third possible response
             response = 3;
         } else { //does nothing, haven't bothered to delete it yet
             response = 4; //it might do something
